@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>jakarta.com</title>
+    <!-- 👇 css code file, icons, and library animate on scroll js cdn 👇 -->
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/logo-jakarta.png" alt="jakarta-logo" width="52" height="55" style="position: relative; top: 3px;">
+                <div class="teks"  style="position: relative; bottom: 3px;">
+                    <h1>Jakarta</h1>
+                    <h4>Ibukota Indonesia</h4>
+                </div>
+            </div>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#destinasi">Destinasi</a></li>
+                <li><a href="#budaya">Budaya</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+        <br><br><br>
+        <div class="jumbotron" style="margin-top: 15px;;">
+            <h1 class="judul-jumbotron">Let's Explo​re Your <br> Jakarta</h1>
+        </div>
+    </header>
+    
+    <main>
+        <div class="konten-1">
+            <article class="sejarah">
+                <h2>Sejarah</h2>
+                <img style="margin-top: 10px;" src="assets/sejarah-1.jpeg" alt="sejarah" width='100%'>
+                <p style="margin-top: 5px;"><b>Jakarta</b> adalah ibu kota dan kota terbesar di Indonesia. Sejarah Jakarta memiliki akar yang panjang, dan kota ini telah mengalami berbagai perubahan seiring berjalannya waktu. Berikut ini adalah gambaran singkat mengenai sejarah Jakarta:</p>
+                <div class="hidden-text">
+                    <p style="margin-top: 10px;">Awalnya, daerah yang sekarang dikenal sebagai Jakarta adalah sebuah pelabuhan kecil bernama Sunda Kelapa, yang didirikan oleh Kerajaan Sunda pada abad ke-5 Masehi. Pada abad ke-13, Sunda Kelapa menjadi pusat perdagangan penting di wilayah ini.Pada awal abad ke-16, Sunda Kelapa diambil alih oleh Kesultanan Banten. Namun, pada tahun 1619, VOC (Vereenigde Oost-Indische Compagnie) Belanda merebut Sunda Kelapa dari Banten dan mendirikan sebuah benteng bernama Batavia. Benteng ini bertujuan untuk mengamankan monopoli perdagangan rempah-rempah di wilayah tersebut.</p>
+                    <p class="text-sejarah-hidden" style="margin-top: 10px;">Pada masa kekuasaan kolonial Belanda, Batavia berkembang pesat sebagai pusat pemerintahan, perdagangan, dan budaya. Kota ini menjadi penting dalam sistem perdagangan rempah-rempah di Hindia Belanda. Belanda membangun infrastruktur kota yang maju, termasuk kanal-kanal, bangunan-bangunan kolonial, dan jalan-jalan yang luas. Selama pendudukan Jepang selama Perang Dunia II (1942-1945), Batavia diubah namanya menjadi Jakarta Setelah kemerdekaan Indonesia pada tahun 1945, Jakarta menjadi ibu kota negara yang baru didirikan.</p>
+                </div>
+                <p onclick="readMore()" class="read-more">Read more</p>
+            </article>
+            <aside>
+                <div class="info">
+                    <h2>Kota Jakarta</h2>
+                    <p>kota metropolitan Indonesia</p><br>
+                    <img src="assets/logo-jakarta.png" alt="logo-jakarta" width="200px">
+                    <div class="info-lainnya">
+                        <p>Informasi umum</p>
+                        <table>
+                            <tr>
+                                <th>Negara</th>
+                                <td><b>:</b> Indonesia</td>
+                            </tr>
+                            <tr>
+                                <th>Hari jadi</th>
+                                <td><b>:</b> 22 Juni 1527</td>
+                            </tr>
+                            <tr>
+                                <th>Luas Total</th>
+                                <td><b>:</b> ± 661,5 km<sup>2</sup></td>
+                            </tr>
+                            <tr>
+                                <th>Bahasa Daerah</th>
+                                <td><b>:</b> Betawi</td>
+                            </tr>
+                            <tr>
+                                <th>Kode Telepon</th>
+                                <td><b>:</b> (+6221) 382 2255</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="budaya" data-aos="fade-up"  data-aos-duration="1100">
+                    <h2>Budaya</h2>
+                    <p style="margin-top: 3px;" id="destinasi">Jakarta adalah tempat peleburan sejati dengan budaya yg kaya dan beragam.</p><br>
+                    <a href="#budaya">learn more</a>
+                </div>
+            </aside>
+        </div>
+        
+        <div class="konten-2">
+            <h1 align="center" style="color: white;margin-bottom: 40px">Destinasi</h1>
+            
+            <div class="monas card-destinasi" data-aos="fade-up"  data-aos-duration="1100">
+                <div class="carousel" data-carousel>
+                    <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+                    <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+                    <ul data-slides>
+                        <li class="slide" data-active>
+                            <img src="assets/monas.jpg" alt="Nature Image #1">
+                        </li>
+                        <li class="slide">
+                            <img src="assets/monas2.jpg" alt="Nature Image #2">
+                        </li>
+                        <li class="slide">
+                            <img src="assets/monas3.jpeg" alt="Nature Image #3">
+                        </li>
+                    </ul>
+                </div>
+                <article class="artikel-destinasi">
+                    <h2>Monas</h2>
+                    <p >Monas (Monumen Nasional) adalah sebuah monumen ikonik yang terletak di pusat kota Jakarta, ibu kota Indonesia. Monumen ini didirikan sebagai simbol kebebasan dan kemerdekaan bangsa, menjadi tonggak penting dalam perjalanan sejarah Indonesia. Dibangun di atas peringatan emas proklamasi kemerdekaan Indonesia pada 17 Agustus 1945, Monas menjadi simbol perjuangan dan pengorbanan para pahlawan yang berjuang untuk meraih kemerdekaan dari penjajahan Belanda. <br><br> <span class="text-hidden"> Monas memiliki tinggi sekitar 132 meter dan terdiri dari lima bagian utama, termasuk patung api yang menghiasi puncaknya. Puncak Monas dapat diakses dengan menggunakan lift dan menawarkan pemandangan indah kota Jakarta dari ketinggian.</span></p>
+                    <a href="https://id.wikipedia.org/wiki/Monumen_Nasional"><button class="btn-destinasi">Learn more</button></a>
+                </article>
+            </div>
+            
+            <div class="kota-tua card-destinasi" data-aos="fade-up"  data-aos-duration="1100">
+                <div class="carousel" data-carousel>
+                    <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+                    <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+                    <ul data-slides>
+                        <li class="slide" data-active>
+                            <img src="assets/kota-tua.jpg" alt="Nature Image #1">
+                        </li>
+                        <li class="slide">
+                            <img src="assets/kota-tua2.jpg" alt="Nature Image #2">
+                        </li>
+                        <li class="slide">
+                            <img src="assets/kota-tua3.jpg" alt="Nature Image #3">
+                        </li>
+                    </ul>
+                </div>
+                <article class="artikel-destinasi">
+                    <h2>Kota tua</h2>
+                    <p>Kota Tua Jakarta adalah sebuah kawasan bersejarah yang memiliki makna mendalam bagi kota metropolitan Jakarta, ibu kota Indonesia. Sebagai saksi bisu dari masa lalu, kawasan ini mengungkapkan jejak perjalanan sejarah Indonesia, khususnya saat masih berada di bawah penguasaan kolonial Belanda. Dengan sebutan "Old Batavia," kawasan ini merupakan pusat kota pada masa lalu, dan masih mempertahankan nuansa klasik serta keindahan arsitektur kolonialnya. <br><br> <span class="text-hidden"> Salah satu daya tarik utama di Kota Tua Jakarta adalah Museum Fatahillah, yang dulunya adalah balai kota Batavia pada abad ke-18. Bangunan ini memiliki nilai sejarah yang tinggi dan bersejarah.</span></p>
+                    <a href="https://id.wikipedia.org/wiki/Kota_Tua_Jakarta"><button class="btn-destinasi">Learn more</button></a>
+                </article>
+            </div>
+            
+            <div class="ancol card-destinasi" data-aos="fade-up"  data-aos-duration="1100">
+                <div class="carousel" data-carousel>
+                    <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+                    <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+                    <ul data-slides>
+                        <li class="slide" data-active>
+                            <img src="assets/ancol.jpg" alt="Nature Image #1">
+                        </li>
+                        <li class="slide">
+                            <img src="assets/ancol2.webp" alt="Nature Image #2">
+                        </li>
+                        <li class="slide">
+                            <img src="assets/ancol3.webp" alt="Nature Image #3">
+                        </li>
+                    </ul>
+                </div>
+                <article class="artikel-destinasi">
+                    <h2>Ancol</h2>
+                    <p>Ancol merupakan sebuah kawasan wisata terkenal di Jakarta, Indonesia. Terletak di tepi pantai utara Jakarta, Ancol menawarkan beragam fasilitas rekreasi dan hiburan yang menarik bagi warga lokal maupun wisatawan. Salah satu daya tarik utama di Ancol adalah Taman Impian Jaya Ancol, sebuah kompleks hiburan yang mencakup Dufan (Dunia Fantasi), SeaWorld, Atlantis Water Adventure, Ocean Dream Samudra, dan masih banyak lagi. <br><br><span class="text-hidden"> Taman Impian Jaya Ancol juga menyediakan pantai-pantai indah yang menawarkan kesempatan bagi pengunjung untuk menikmati matahari terbenam atau beraktivitas air seperti berenang dan berperahu. Selain itu, di Ancol terdapat padang golf, hotel, restoran, dan berbagai tempat makan yang menyajikan hidangan lezat.</span></p>
+                    <a href="https://id.wikipedia.org/wiki/Taman_Impian_Jaya_Ancol"><button id="budaya" class="btn-destinasi">Learn more</button></a>
+                </article>
+            </div>
+        </div>
+        
+        <div class="konten-3">
+            <h1 align="center" style="color: white">Budaya</h1>
+            
+            <div class="cards-budaya">
+                <div class="card" data-aos="fade-up"  data-aos-duration="1100">
+                    <img src="assets/tari-topeng.jpg" alt="tari topeng">
+                    <div class="info-card">
+                        <h1>Tari topeng</h1>
+                        <p>Tarian tradisional dengan wajah topeng sebagai atribut penting.</p>
+                        <a href="https://id.wikipedia.org/wiki/Tari_Topeng" class="btn-card">Read more</a>
+                    </div>
+                </div>
+                
+                <div class="card" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="100">
+                    <img src="assets/ondel-ondel.jpg" alt="tari topeng">
+                    <div class="info-card">
+                        <h1>Ondel-ondel</h1>
+                        <p>Tarian rakyat Indonesia dengan boneka besar sebagai pemeran utama.</p>
+                        <a href="https://id.wikipedia.org/wiki/Ondel-ondel" class="btn-card">Read more</a>
+                    </div>
+                </div>
+                
+                <div class="card" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="200">
+                    <img src="assets/silat.jpg" alt="tari topeng">
+                    <div class="info-card">
+                        <h1>Silat</h1>
+                        <p>Seni bela diri tradisional Betawi yang menggabungkan gerakan dan spiritualitas.</p>
+                        <a href="https://id.wikipedia.org/wiki/Pencak_silat" class="btn-card">Read more</a>
+                    </div>
+                </div>
+                
+                <div class="card" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="300">
+                    <img src="assets/tanjidor.jpg" alt="tari topeng">
+                    <div class="info-card">
+                        <h1>Tanjidor</h1>
+                        <p>Alat musik tiup dan kelompok musik jalanan tradisional dari Betawi, Indonesia</p>
+                        <a href="https://id.wikipedia.org/wiki/Tanjidor" class="btn-card">Read more</a>
+                    </div>
+                </div>
+                
+                <div class="card" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="assets/kue-pancong.jpeg" alt="tari topeng">
+                    <div class="info-card">
+                        <h1>Pancong</h1>
+                        <p>Kue tradisional Betawi berbentuk bundar dengan tekstur lembut dan manis.</p>
+                        <a href="https://en.wikipedia.org/wiki/Kue_pancong" class="btn-card">Read more</a>
+                    </div>
+                </div>
+                
+                <div class="card" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="100">
+                    <img src="assets/kerak-telor.jpg" alt="tari topeng">
+                    <div class="info-card">
+                        <h1>Kerak telor</h1>
+                        <p>Makanan khas Betawi berbahan dasar nasi goreng telur dengan ebi dan kelapa.</p>
+                        <a href="https://id.wikipedia.org/wiki/Kerak_telor" class="btn-card">Read more</a>
+                    </div>
+                </div>
+                
+                <div class="card" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="200">
+                    <img src="assets/soto-betawi.jpg" alt="tari topeng">
+                    <div class="info-card">
+                        <h1>Soto betawi</h1>
+                        <p>Sup daging Betawi dengan santan dan rempah khas, disajikan dengan nasi.</p>
+                        <a href="https://id.wikipedia.org/wiki/Soto_Betawi" class="btn-card">Read more</a>
+                    </div>
+                </div>
+                
+                <div class="card" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="300">
+                    <img src="assets/asinan-betawi.jpg" alt="tari topeng">
+                    <div class="info-card">
+                        <h1>Asinan betawi</h1>
+                        <p>Makanan segar Betawi berupa campuran buah dan sayuran dengan saus kacang.</p>
+                        <a href="https://id.wikipedia.org/wiki/Asinan" class="btn-card" id="kontak">Read more</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="konten-4">
+            <div class="judul-kontak">
+                <h2 style="color: white;">Kontak Kami</h2>
+                <p class="text-hidden text-kontak" style="color: white;">hello jakarters bagaimana? kalian menikmati explorasi di di jakarta? jika kalian suka dan ingin memberi kita masukan, kalian bisa membagikannya lewat kontak<sup>2</sup> kita di bawah ini !!</p>
+            </div>
+            
+            <div class="kontak-parent">
+                <div class="kontak-info">
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>jln. kita masih panjang,<br> Fontaine, Inazuma <br>55060</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>(+6221) 382 2255</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>dkijakartafake@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="kontak-form">
+                    <form>
+                        <h2>Send Message</h2>
+                        <div class="inputBox">
+                            <input type="text" required="required" id="namaPengirim">
+                            <span>Full Name</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="text" required="required" id="emailPengirim">
+                            <span>Email</span>
+                        </div>
+                        <div class="inputBox">
+                            <textarea required="required" id="pesanPengirim"></textarea>
+                            <span>Type your Message...</span>
+                        </div>
+                        <div class="inputBox">
+                            <button onclick="popup()">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    
+    <footer>
+        <h2>Belajar Dasar Pemrograman Web © 2023, Dicoding Academy</h2>
+    </footer>
+    
+    <!-- 👇 javascript code file and animate on scroll js cdn 👇 -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
